@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LSS AAO Generator
-// @namespace    www.leitstellenspiel.de
-// @version      1.0
+// @namespace    http://tampermonkey.net/
+// @version      1.1
 // @description  Fügt einen Button ein um einen neuen AAO Eintrag zu erzeugen
 // @author       MissSobol
 // @match        https://www.leitstellenspiel.de/einsaetze/*
@@ -219,11 +219,11 @@
                 "Benötigte NEA200": "aao[energy_supply_2]", //NEA200
                 "Benötigte Drohneneinheiten": "aao[drone]", //Beliebige Drohneneinheit
                 "Benötigte MTW-Tr UL": "vehicle_type_ids[125]", //MTW-Tr UL
-                "Benötigte FüKW (THW)": "vehicle_type_ids[144]", //FüKW (THW)
+                "Benötigte FüKW (THW)": "vehicle_type_ids[144]", //FüKW (THW)
                 "Benötigte FüKomKW": "vehicle_type_ids[145]", //FüKomKW
                 "Benötigte Anh FüLa": "vehicle_type_ids[146]", //Anh FüLa
                 "Benötigte FmKW": "vehicle_type_ids[147]", //FmKW
-                "Benötigte MTW-FGr K": "vehicle_type_ids[148]", //MTW-FGr K
+                "Benötigte MTW FGr K": "vehicle_type_ids[148]", //MTW-FGr K
                 "Benötigte KTW Typ B": "aao[ktw_b]", //KTW Typ B
                 //"Benötigte Drohneneinheiten": "vehicle_type_ids[127]", //GW-UAS
                 //"Benötigte Betreuungs- und Verpflegungsausstattung": "vehicle_type_ids[131]", //Bt-Kombi
